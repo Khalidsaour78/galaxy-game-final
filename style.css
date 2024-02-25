@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+    color:white;
+    font:bold;
+    font-size:80px;
+ }
+ 
+ body {
+     background-image: url('https://media.istockphoto.com/id/1346245742/photo/galaxy-star-pattern-outer-space-surface-planet-nebula-abstract-navy-blue-background-starry.jpg?s=1024x1024&w=is&k=20&c=P2MkVXa-IAz71U1FhGYt-yx_vtzCq_OVSb8LpN81Sdc='); 
+     background-size: cover; 
+     background-position: center; 
+     background-repeat: none;
+     
+    
+ }
+ #gameContainer {
+    position: relative;
+    width: 100vw; 
+    height: 100vh; 
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#airplane {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 50px; 
+    height: auto;
+}
+
+.rocket {
+    position: absolute;
+    width: 10px; 
+    height: 20px; 
+    background-color: red; 
+}
+.bird {
+    position: absolute;
+    width: 30px; 
+    height: auto;
+}
